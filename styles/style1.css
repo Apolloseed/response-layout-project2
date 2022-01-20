@@ -4,9 +4,19 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+  }
+
 body {
     margin: 0 auto; 
     max-width: 1024px; 
+    /* below is used as an example */ 
+    display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  background-color: #093145;
 }
 
 ul {
@@ -16,6 +26,8 @@ ul {
 
 a {
     text-decoration: none; 
+    text-transform: uppercase;
+    color: white;
 }
 
 nav {
@@ -37,6 +49,16 @@ h1, .top-nav {
 h1 a, .top-nav a {
     color: #000;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding: 0 20px;
+    height: 100px;
+    background-color: #107896;
+  }
 
 .top-nav {
     margin-top: 30px;
@@ -86,6 +108,10 @@ h1 a, .top-nav a {
     font-family: 'Roboto', sans-serif; 
 }
 
+.full {
+    display: none;
+  }
+
 /*                       Flex Containers                  */
 
 
@@ -117,6 +143,18 @@ h1 a, .top-nav a {
         display: flex;
         flex-wrap: wrap;
     }
+    .col {
+        flex-basis: calc(50% - 20px);
+    }
+
+    .top {
+        display: none;
+      }
+      .full {
+        display: inline-block;
+        margin-left: 20px;
+      }
+}
 
     @media (min-width: 1024px) {
         nav {
@@ -129,6 +167,9 @@ h1 a, .top-nav a {
             width: initial;
             margin-bottom: 0;
         }
-    }
-    
+
+        .col {
+            flex-basis: calc(33.333% - 20px);
+        }
+ 
 }
