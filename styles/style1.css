@@ -34,7 +34,7 @@ nav {
     font-family: "Roboto", Arial, Verdana;
     font-weight: 400;
     letter-spacing: .05em; 
-    background-color: #829356;
+    background-color:rgb(245, 249, 250);
     padding: 25px; 
 }
 
@@ -102,7 +102,7 @@ footer {
     background-color: #9A2617;
 }
 .container {
-    max-width: 1100px;
+     max-width: 1100px; 
     padding: 10px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif; 
@@ -111,6 +111,26 @@ footer {
 .full {
     display: none;
   }
+
+.intro {
+    text-align: center;
+    background-color:rgb(245, 249, 250);
+}
+
+.intro p {  
+    font-size: 15px;
+    margin: 1em 1em;
+}
+
+.intro img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}  
+
+.col img {
+    width: 100%;
+}
 
 /*                       Flex Containers                  */
 
@@ -154,9 +174,10 @@ footer {
         display: inline-block;
         margin-left: 20px;
       }
+
 }
 
-    @media (min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
         nav {
             display: flex;
             justify-content: space-between;
