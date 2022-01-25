@@ -29,7 +29,7 @@ ul {
 a {
     text-decoration: none; 
     text-transform: uppercase;
-    color: white;
+    color: black;
 }
 
 nav {
@@ -79,12 +79,13 @@ footer {
 
 .top-nav a {
     text-transform: uppercase; 
+
 }
 
 .col {
     margin: 10px;
     min-height: 250px; /* temporary until img come in */
-    color: white;
+    color: black;
     text-align: center;
     letter-spacing: 1px;
     padding-top: 5px; 
@@ -95,22 +96,22 @@ footer {
 }
 
 .box-1 {
-    background-color: #093145; 
+    background-color: rgb(245, 249, 250); 
 }
 .box-2 {
-    background-color: #3C6478;
+    background-color: rgb(245, 249, 250);
 }
 .box-3 {
-    background-color: #107896;
+    background-color: rgb(245, 249, 250);
 }
 .box-4 {
-    background-color: #829356;
+    background-color: rgb(245, 249, 250);
 }
 .box-5 {
-    background-color: #C2571A;
+    background-color: rgb(245, 249, 250);
 }
 .box-6 {
-    background-color: #9A2617;
+    background-color: rgb(245, 249, 250);
 }
 .container {
      max-width: 1100px; 
@@ -123,7 +124,7 @@ footer {
     display: none;
   }
 
-.intro {
+.intro, #contact {
     text-align: center;
     background-color:rgb(245, 249, 250);
 }
@@ -162,7 +163,7 @@ footer {
     }
 
     .top-nav a {
-        color: #fff; 
+        color: #000; 
     }
 
     .container {
