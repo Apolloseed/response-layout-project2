@@ -15,7 +15,7 @@ body {
     /* below is used as an example */ 
     display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: black;
   background-color: #fff;
   line-height: 1.2;
@@ -33,7 +33,7 @@ a {
 }
 
 nav {
-    font-family: "Roboto", Arial, Verdana;
+    font-family: "Poppins", Arial, Verdana;
     font-weight: 400;
     letter-spacing: .05em; 
     background-color:rgb(245, 249, 250);
@@ -89,6 +89,10 @@ footer {
     text-align: center;
     letter-spacing: 1px;
     padding-top: 5px; 
+}
+
+.col p{
+    font-size: 1em;
 }
 
 .col img {
@@ -148,10 +152,6 @@ footer {
     margin: 2em 3em;
 }
 
-/* COME BACK TO 
-footer {
-} 
-*/ 
 /*                       Flex Containers                  */
 
 
