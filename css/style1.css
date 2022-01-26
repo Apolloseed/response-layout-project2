@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
   color: black;
-  background-color: #093145;
+  background-color: #fff;
   line-height: 1.2;
 }
 
@@ -45,7 +45,7 @@ h3, p {
     
 }
 
-h1, .top-nav {
+h1, .top-nav, h4 {
     text-align: center;
 }
 
@@ -96,22 +96,22 @@ footer {
 }
 
 .box-1 {
-    background-color: rgb(245, 249, 250); 
+    background-color: #fff;
 }
 .box-2 {
-    background-color: rgb(245, 249, 250);
+    background-color: #fff;
 }
 .box-3 {
-    background-color: rgb(245, 249, 250);
+    background-color: #fff;
 }
 .box-4 {
-    background-color: rgb(245, 249, 250);
+    background-color: #fff;
 }
 .box-5 {
-    background-color: rgb(245, 249, 250);
+    background-color: #fff;
 }
 .box-6 {
-    background-color: rgb(245, 249, 250);
+    background-color: #fff;
 }
 .container {
      max-width: 1100px; 
@@ -129,8 +129,8 @@ footer {
     background-color:rgb(245, 249, 250);
 }
 
-.intro p {  
-    margin: 1em 1em;
+.intro p, #portfolio {  
+    margin: 2em 2em;
 }
 
 .intro img {
@@ -148,9 +148,11 @@ footer {
     margin: 2em 3em;
 }
 
+/* COME BACK TO 
+footer {
+} 
+*/ 
 /*                       Flex Containers                  */
-
-
 
 
 /*                       MEDIA QUERIES                    */
