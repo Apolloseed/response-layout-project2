@@ -30,6 +30,7 @@ a {
     text-decoration: none; 
     text-transform: uppercase;
     color: black;
+    font-weight: bold;
 }
 
 nav {
@@ -150,7 +151,9 @@ footer {
     width: 60%;
     margin: 0 auto;
 }  
-
+#portfolio {
+    flex-grow: 1;
+}
 #contact {
     margin-top: 1em;
     text-align: center;
