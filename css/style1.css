@@ -208,6 +208,17 @@ footer {
         flex-basis: initial;
      }
 
+     .intro {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+     }
+
+     .intro img {
+      order: 1;
+      flex-shrink: 3 !important;
+     }
+
 }
 
     @media screen and (min-width: 1024px) {
