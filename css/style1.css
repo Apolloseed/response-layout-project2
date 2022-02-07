@@ -12,7 +12,6 @@ body {
     margin: 0 auto; 
     max-width: 1024px;
     line-height: 1.5; 
-    /* below is used as an example */ 
     display: flex;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
@@ -93,7 +92,6 @@ footer {
 
 .col {
     margin: 10px;
-     /* temporary until img come in */
     color: black;
     text-align: center;
     letter-spacing: 1px;
@@ -162,8 +160,6 @@ footer {
 #contact h4 {
     margin: 2em 3em;
 }
-
-/*                       Flex Containers                  */
 
 
 /*                       MEDIA QUERIES                    */
