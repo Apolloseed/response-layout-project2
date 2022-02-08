@@ -214,8 +214,7 @@ footer {
 
      .intro img {
       order: 1;
-      flex-grow: 1;
-      width: 40%;
+      max-width: 40%;
       padding: 2em;
      }
 
