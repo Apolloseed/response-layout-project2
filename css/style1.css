@@ -73,6 +73,10 @@ footer {
     margin: 2em 0;
     
   }
+
+  address {
+      font-style:normal;
+  }
   
 
 .top-nav {
